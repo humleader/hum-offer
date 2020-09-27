@@ -1,0 +1,59 @@
+// 全局样式
+@import "~nprogress/nprogress.css";
+@import "~antd/lib/style/themes/default.less";
+
+@import "./iconfont/iconfont.less";
+
+// 进度条
+#nprogress {
+  div.spinner {
+    top: @layout-header-height;
+    display: none;
+  }
+}
+
+.hum-table-list {
+  background: #fff;
+
+  .ant-table {
+    font-size: 12px;
+  }
+}
+
+.page-add, .page-view, .page-preview {
+  .hum-container {
+    padding: 10px 16px;
+    background-color: #fff;
+  }
+}
+
+body {
+  .ant-input {
+    padding: 0 9px;
+  }
+
+  height: 100vh;
+  overflow: hidden;
+}
+
+// modal
+.ant-modal-header {
+  padding: 12px 20px !important;
+}
+
+.ant-modal-title {
+  font-weight: normal !important;
+  font-size: 16px !important;
+}
+
+.ant-modal-close-x {
+  width: 46px !important;
+  height: 46px !important;
+  line-height: 46px !important;
+}
+
+
+// table
+.ant-table-thead>tr>th {
+  font-weight: normal !important;
+}
